@@ -1,0 +1,169 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin: 0;
+  background-color: lightcyan;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+html{
+  height: 100%;
+}
+.tarolo{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#fejlec{
+  background: #333;
+  color: white;
+}
+#navigacio{
+  background-color: #ccc;
+  color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+#navigacio ul{
+  padding: 0 ;
+  margin: 0 ;
+  list-style: none;
+  line-height: 2em;
+  text-align: center;
+}
+#navigacio li{
+  display: inline;
+  padding: 5px, 50px;
+  line-height: 1.6em;
+  margin: 100px;
+ 
+}
+#navigacio a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+#navigacio li:hover{
+  background: #aaa;
+}
+#foszoveg{
+  background-image:url('./kepek/electricblue.jpg') ;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  min-height: 100px;
+  text-align: center;
+  
+}
+#foszoveg h1{
+  color: black;
+  font-size: 30px;
+  padding-top: 5px;
+  
+  line-height: 1.6em;
+}
+#szovegoldal{
+  float: right;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  text-align: justify;
+  
+}
+/*#oldalbar{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+}*/
+#lablec{
+  
+  background-image: url(./kepek/electricblue.jpg);
+  /*background-position: bottom;*/
+  text-align: right;
+  /*padding: 20px;*/
+  margin-top: auto;
+  
+  
+  height: 75px;
+  width: 100%;
+  
+   
+  
+}
+#lablec p{
+  margin-right: 20px;
+  text-align: center;
+  float: right;
+}
+#kep{
+/*margin-top: 1500px;*/
+float:left;
+width: 30%;
+padding: 10px;
+box-sizing: border-box;
+
+}
+#kep img{
+  max-width: 100%;
+  max-height: 100%;
+  
+  
+  
+}
+#kep p{
+  text-align: center;
+}
+.sor{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.oszlop{
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+
+}
+.oszlop img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.segitseg ul{
+list-style: none;
+}
+.segitseg a{
+  text-decoration: none;
+  color: black;
+}
+
+
+@media(max-width:600px){
+  #oldalbar,#szoveoldal,#kep{
+    width: 100%;
+    float: none;
+    border: none;
+  }
+  .oszlop{
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+  
+
+
+
+
+
+
+
